@@ -119,11 +119,12 @@ public class circularLinkedList {
         Node cur = head; //current(cur) is an iterator used to traverse through the linked-list
         if(head == null){
             System.out.println("Empty LinkedList");
-
         }
+        // do while is used because the loop starts at head and ends at head, 
+        // once the first time head is passed then the iterator starts to iterate until it's not equals to head again.
         do{
             System.out.print(cur.data + " ");
-            cur = cur.next;
+            cur = cur.next; 
         }
         while(cur != head);
         System.out.println();
