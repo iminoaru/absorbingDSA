@@ -31,7 +31,7 @@ class Solution {
             current = front;
             if(front != null) front = front.next;
         }
-        head = back;
+        head = back; // head != current because our while loop ends when current == null so the last element will be at 'back'.
 
         return head;
     }
