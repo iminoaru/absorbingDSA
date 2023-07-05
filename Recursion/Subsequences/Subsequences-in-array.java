@@ -14,12 +14,14 @@ class Main{
             return; // it dont exit the whole fn, it just exits that function call and jumps to next fn call(if any)
         }
 
-        // Pick
+        // PICK
         list.add(arr[index]); // adds the picked element to the 'list' to print it.
         findingSubsequence(index + 1 , arr , list); // iterating (kindof)
         list.remove(list.size() - 1); // Backtrack to remove the recently inserted element. ex removes 3 from [1,3]
+        // if this line is not added than the 'list' will keep on adding the next fn calls and thus wont be forming the subsequence.
+        // it kindof reverses the adding part we did, so the recursion keeps on going.
         
-        // Not pick
+        // NOT PICK
         findingSubsequence(index + 1 , arr , list); // basically skips that element and the fn call goes back to the 'Pick'
         
     }
