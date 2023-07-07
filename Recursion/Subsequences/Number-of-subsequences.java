@@ -1,5 +1,10 @@
 // Time O(2^n)      |       Space O(n)
 
+//Approach :-
+// return 1 if our given condition is satisfied.
+// return 0 if it is not satisfied.
+// finally return the sum of left and right. (1 and 0 will be added as numbers, not true and false.)
+
 // The general formula to find number of subsequences is just 2^length of array.
 // This is a pattern that can also be used if some conditions are given like sum = k etc.
 
