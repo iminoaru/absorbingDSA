@@ -3,6 +3,8 @@
 // The general formula to find number of subsequences is just 2^length of array.
 // This is a pattern that can also be used if some conditions are given like sum = k etc.
 
+// This left right technique is widely used in DP.
+
 import java.util.ArrayList;
 
 class Main{
