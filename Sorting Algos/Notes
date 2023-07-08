@@ -1,1 +1,7 @@
+Stable vs Unstable Algos:
+  An algo is said to be stable if it keeps the original order of the same values intact, like if in an array there are two 7s
+  so in a stable sorting algo the first 7 of the unsorted array will be the first 7 in sorted array while in unstable algo
+  it can be interchanged with the second 7 while sorting.
+    - Sorting Algorithm is stable by nature like Insertion Sort, Merge Sort and Bubble Sort etc. 
+    - Sorting Algorithm is not stable by nature like Quick Sort, Heap Sort etc.
 
