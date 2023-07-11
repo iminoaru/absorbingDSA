@@ -1,0 +1,24 @@
+QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the picked 
+pivot by placing the pivot in its correct position in the sorted array.
+
+The logic is simple, we start from the leftmost element and keep track of the index of smaller (or equal) elements as i. 
+While traversing, if we find a smaller element, we swap the current element with arr[i]. Otherwise, we ignore the current element.
+
+
+KEYS :-
+  - QuickSort algorithm is based on the divide-and-conquer strategy.
+  - It works by selecting a pivot element and partitioning the array into two sub-arrays, one containing elements less than the pivot and the other containing elements greater than the pivot.
+  - The process is repeated recursively for each sub-array until the entire array is sorted.
+  - QuickSort has an average-case time complexity of O(n log n) and a worst-case time complexity of O(n^2) when the pivot selection is not optimal.
+  - It is an in-place sorting algorithm, meaning it doesn't require extra space for sorting.
+  - QuickSort is efficient for large datasets and is commonly used in practice.
+
+ADVANTAGES :-
+  - It is a divide-and-conquer algorithm that makes it easier to solve problems.
+  - It is efficient on large data sets.
+  - It has a low overhead, as it only requires a small amount of memory to function.
+
+DISADVANTAGES :-
+  - It has a worst-case time complexity of O(N2), which occurs when the pivot is chosen poorly.
+  - It is not a good choice for small data sets.
+  - It is not a stable sort.
