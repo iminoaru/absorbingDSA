@@ -17,11 +17,11 @@ public class Main{
     }    
   
 	public static void main(String[] args) {
-		int arr[] = {64 , 54 , 34 , 25 , 12 , 78 , 22 , 11 , 90 , 69};
-        System.out.println(Arrays.toString(arr));
+	  int arr[] = {64 , 54 , 34 , 25 , 12 , 78 , 22 , 11 , 90 , 69};
+          System.out.println(Arrays.toString(arr));
         
-        bubbleSort(arr, arr.length - 1);
-        System.out.println(Arrays.toString(arr));
+  	  bubbleSort(arr, arr.length - 1);
+          System.out.println(Arrays.toString(arr));
 	}
 }
 
