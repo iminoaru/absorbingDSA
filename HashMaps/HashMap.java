@@ -25,6 +25,11 @@ public class Main{
 	    
 	    //Remove from HashMap O(1)
 	    map.remove("Arnold");
+	    System.out.println(map);	
+
+		
+	    //Update in HashMap O(1)
+	    map.put("Levrone" , 2); // Adding again with same key updates the entry.
 	    System.out.println(map);
 	    
 	    
