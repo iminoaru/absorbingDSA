@@ -41,6 +41,11 @@ public class Main{
 	    while(i.hasNext() != false){
 	        System.out.print(i.next() + "   "); // automatically dos that i++ thing.
 	    }
-    
+	    System.out.println();
+        
+        
+        	//Size of HashSet
+	        System.out.println(hashset.size());
+	       
 	}
 }
