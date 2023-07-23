@@ -47,6 +47,11 @@ public class Main{
         for(String key : keys){
             System.out.print(key + "  " + map.get(key) + "   ");
         }
-	    
+	System.out.println();
+        
+        
+        //Size of HashMap
+        System.out.println(map.size());
+	        
 	}
 }
