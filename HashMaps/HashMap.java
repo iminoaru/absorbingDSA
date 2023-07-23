@@ -52,6 +52,12 @@ public class Main{
         
         //Size of HashMap
         System.out.println(map.size());
+
+		
+	//Copying one map in another map.
+        HashMap<String , Integer> map2 = new HashMap<String , Integer>(map);
+        System.out.println(map2);
+	    	
 	        
 	}
 }
